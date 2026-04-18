@@ -88,12 +88,12 @@ const Login = () => {
         </form>
 
         <div className="mt-8 text-center pt-8 border-t border-[#222] flex flex-col gap-4">
-          {/* <button 
+          <button 
             onClick={() => setIsSignup(!isSignup)}
             className="text-amber-500 hover:text-amber-400 text-sm font-bold uppercase tracking-wider"
           >
             {isSignup ? 'Already have an account? Login' : 'Need an admin account? Signup'}
-          </button> */}
+          </button>
 
           <a href="/" className="text-gray-500 hover:text-white transition-colors text-sm font-semibold">
             ← Return to Homepage
