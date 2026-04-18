@@ -6,7 +6,7 @@ const SettingsContext = createContext();
 export const SettingsProvider = ({ children }) => {
   const [settings, setSettings] = useState({
     discord_link: 'https://discord.gg/YgzM7fxg',
-    site_name: 'Chronicles Rust'
+    site_name: 'Chronicle Rust'
   });
   const [loading, setLoading] = useState(true);
 

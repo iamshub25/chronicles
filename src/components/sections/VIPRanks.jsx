@@ -52,13 +52,13 @@ const VIPRanks = () => {
 
   return (
     <section id="store" className="py-24 bg-[#161616] relative overflow-hidden">
-      {/* Background Decor */}
+      {/* Brighter Background Decor */}
       <motion.div 
         animate={{ rotate: 360 }}
-        transition={{ duration: 50, repeat: Infinity, ease: "linear" }}
-        className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-4xl h-full opacity-5 pointer-events-none"
+        transition={{ duration: 100, repeat: Infinity, ease: "linear" }}
+        className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-4xl h-full opacity-[0.15] pointer-events-none flex items-center justify-center p-20"
       >
-        <svg viewBox="0 0 100 100" className="w-full h-full fill-current text-white"><path d="M50 0L100 50L50 100L0 50Z"/></svg>
+        <img src="/rust3.svg" alt="" className="w-full h-full object-contain" />
       </motion.div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
